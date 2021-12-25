@@ -110,7 +110,13 @@ p {
   background: var(--clr-primary-light);
 }
 
-/* || Header */
+/* clearfix hack */
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
