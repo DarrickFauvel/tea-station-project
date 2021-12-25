@@ -1,7 +1,11 @@
-/* || Fonts */
+/*
+Fonts
+*/
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel');
 
-/* || Variables */
+/*
+Variables
+*/
 :root {
   --clr-primary: #678e3e;
   --clr-primary-light: #beed8c;
@@ -16,7 +20,9 @@
   --radius: 0.5rem;
 }
 
-/* || Global Styling */
+/*
+Global Styling
+*/
 * {
   margin: 0;
   padding: 0;
@@ -138,6 +144,10 @@ p {
     padding: 4rem 1rem;
   }
 }
+
+/* 
+Header
+*/
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -317,3 +327,7 @@ Products
     padding: 0 1rem;
   }
 }
+
+/* 
+Services
+*/
