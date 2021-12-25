@@ -11,7 +11,7 @@
   --clr-white: #fff;
   --ff-primary: 'Catamaran', sans-serif;
   --ff-secondary: 'Grand Hotel', cursive;
-  --transition: all 0.3 linear;
+  --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
 }
