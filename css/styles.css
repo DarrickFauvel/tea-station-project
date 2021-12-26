@@ -245,7 +245,7 @@ Navbar
 .showNav {
   transform: translateX(0);
 }
-.navbarHeader {
+.navbar-header {
   text-align: right;
   padding-right: 1rem;
 }
